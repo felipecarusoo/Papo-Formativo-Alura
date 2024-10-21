@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-color: #352F44;
+}
+header {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+section {
+    background-color: rgb(184, 156, 213);
+    padding-bottom: 80px;  
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin: right;
+}
