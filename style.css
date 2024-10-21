@@ -17,3 +17,13 @@ section {
 div {
     margin: right;
 }
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
