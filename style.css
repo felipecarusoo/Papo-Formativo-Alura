@@ -14,6 +14,7 @@ body {
 
 body h2 {
     font-family: var(--titulo-fonte);
+    text-transform: uppercase;
 }
 
 body p {
