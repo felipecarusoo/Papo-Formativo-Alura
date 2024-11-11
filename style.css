@@ -72,3 +72,42 @@ body p {
     color: white;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .container1 {
+        padding: 40px 10px;
+        flex-direction: column;
+    }
+
+    .chamada-texto {
+        margin-right: 0;
+    }
+
+    .categoria-videos img {
+        height: 150px;
+    }
+
+    .rodape {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        padding: 20px 5px;
+    }
+
+    .categoria-videos img {
+        height: 120px;
+    }
+
+    .chamada-texto2 {
+        font-size: 14px;
+    }
+
+    .rodape {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
