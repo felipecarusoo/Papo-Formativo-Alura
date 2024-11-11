@@ -79,7 +79,7 @@ body p {
         flex-direction: column;
     }
     .responsive-iframe {
-        max-width: 100%;
+        max-width: 35%;
         height: auto;
     }
 
@@ -102,9 +102,9 @@ body p {
         padding: 20px 5px;
     }
     .responsive-iframe {
-        width: 100%;
+        width: 30%;
         height: auto;
-        aspect-ratio: 16 / 9;
+       
     }
 
     .categoria-videos img {
