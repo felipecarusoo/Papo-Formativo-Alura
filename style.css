@@ -11,23 +11,6 @@ body {
     color: white;
 
 }
-.video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    overflow: hidden;
-}
-
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
 
 body h2 {
     font-family: var(--titulo-fonte);
@@ -95,6 +78,10 @@ body p {
         padding: 40px 10px;
         flex-direction: column;
     }
+    .responsive-iframe {
+        max-width: 100%;
+        height: auto;
+    }
 
     .chamada-texto {
         margin-right: 0;
@@ -113,6 +100,11 @@ body p {
 @media (max-width: 480px) {
     .container1 {
         padding: 20px 5px;
+    }
+    .responsive-iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 
     .categoria-videos img {
